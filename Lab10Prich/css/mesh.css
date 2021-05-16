@@ -1,0 +1,52 @@
+.row {
+ 
+   display: flex;
+   
+ 
+}
+.row_cell {
+ 
+   flex: 1;
+  background-color: rgb(136, 26, 18);
+}
+.row_cell--2 {
+ 
+   flex: 2;
+background-color: rgb(10, 124, 48);
+}
+.row_cell--3 {
+ 
+   flex: 3;
+   background-color: rgb(225, 248, 12);
+}
+
+.row_cell--top {
+ 
+  align-self: flex-start;
+ background-color: rgb(172, 94, 152);
+}
+
+.row_cell--bottom {
+ 
+  align-self: flex-end;
+ background-color: rgb(201, 87, 103);
+}
+
+.row_cell--center {
+ 
+  align-self: center;
+ background-color: rgb(126, 185, 175);
+}
+.row--top {
+ 
+   align-items: flex-start;
+}
+.row--center {
+ 
+   align-items: center;
+}
+.row--bottom {
+ 
+   align-items: flex-end
+ 
+}

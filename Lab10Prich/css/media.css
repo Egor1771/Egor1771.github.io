@@ -1,0 +1,11 @@
+.media {
+ 
+   display: flex;
+ align-items: flex-start;
+}
+
+.media-body {
+ background-color: rgb(224, 173, 240);
+   flex: 1;
+ 
+}

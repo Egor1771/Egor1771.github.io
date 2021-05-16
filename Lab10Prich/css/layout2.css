@@ -1,0 +1,18 @@
+main {
+ flex: 1;
+  height: calc(100vh - 40vh);
+ background-color: #e4d54c;
+ margin: 0 8px 0 8px;
+}
+
+body {
+ background-color: #c5db48;
+  display: flex;
+ 
+}
+aside {
+ margin: 0 8px 0 8px;
+   width: 20vw;
+ background-color: #e6e927;
+}
+
